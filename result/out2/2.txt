@@ -1,0 +1,28 @@
+type: mealy
+start: 
+
+transitions:
+q1 q10 Z1 / Y2
+q1 q5 Z2 / Y3
+q2 q12 Z1 / Y2
+q2 q7 Z2 / Y3
+q3 q5 Z1 / Y3
+q3 q6 Z2 / Y2
+q4 q7 Z1 / Y3
+q4 q11 Z2 / Y2
+q5 q3 Z1 / Y3
+q5 q9 Z2 / Y2
+q6 q7 Z1 / Y3
+q6 q11 Z2 / Y2
+q7 q3 Z1 / Y3
+q7 q6 Z2 / Y2
+q8 q10 Z1 / Y2
+q8 q4 Z2 / Y3
+q9 q7 Z1 / Y3
+q9 q6 Z2 / Y2
+q10 q1 Z1 / Y1
+q10 q8 Z2 / Y1
+q11 q5 Z1 / Y3
+q11 q9 Z2 / Y2
+q12 q2 Z1 / Y1
+q12 q8 Z2 / Y1

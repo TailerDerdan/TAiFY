@@ -1,0 +1,18 @@
+type: moore
+start: 
+
+states:
+Q0 | q1 / Y1
+Q3 | q3 / Y3
+Q2 | q6 / Y2
+Q1 | q10 / Y2
+
+transitions:
+Q0 Q1 Z1
+Q0 Q3 Z2
+Q3 Q3 Z1
+Q3 Q2 Z2
+Q2 Q3 Z1
+Q2 Q2 Z2
+Q1 Q0 Z1
+Q1 Q0 Z2
